@@ -5,7 +5,7 @@ public class Linecomparison {
 
 	public static void main(String[] args) {
 		System.out.println("Welcome to Line Comparison Computation Program");
-	    Scanner scan = new Scanner(System.in);
+	        Scanner scan = new Scanner(System.in);
 		DecimalFormat decform = new DecimalFormat("0.##");
 		//Variable
 		int x1 = 0;
@@ -27,5 +27,5 @@ public class Linecomparison {
 		scan.close();
 		Length = Math.sqrt(Math.pow(x2-x1, 2) + (Math.pow(y2-y1,  2)));
 		System.out.println("The Length is " + decform.format(Length));
-	}
-	}
+        }
+}
